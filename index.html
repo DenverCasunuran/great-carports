@@ -35,9 +35,6 @@
 </head>
 
 <body>
-    <!-- 3d model-->
-
-    
     <!-- Spinner Start -->
     <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
         <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
@@ -92,17 +89,29 @@
             <div class="navbar-nav ms-auto p-4 p-lg-0">
                 <a href="index.html" class="nav-item nav-link active">Home</a>
                 <a href="about.html" class="nav-item nav-link">About</a>
-                <a href="service.html" class="nav-item nav-link">Products</a>
                 <div class="nav-item dropdown">
-                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
-                    <div class="dropdown-menu fade-up m-0">
-                        <a href="booking.html" class="dropdown-item">Booking</a>
-                        <a href="testimonial.html" class="dropdown-item">Testimonial</a>
+                    <a href="products.html" class="nav-item nav-link dropdown-toggle" data-bs-toggle="dropdown">Products</a>
+                    <div class="dropdown-menu fade-up m-0 dropdownmenu">
+                        <a href="products.html" class="dropdown-item droptext">Metal Garages</a>
+                        <a href="metalcarport.html" class="dropdown-item droptext">Metal Carports</a>
+                        <a href="metalbarns.html" class="dropdown-item droptext">Metal Barns</a>
+                        <a href="rvcovers.html" class="dropdown-item droptext">Metal RV Covers</a>
+                        <a href="combo.html" class="dropdown-item droptext">Metal Combo Units</a>
+                        <a href="metalshed.html" class="dropdown-item droptext">Metal Sheds</a>
+                        <a href="bardominiums.html" class="dropdown-item droptext">Metal Bardominiums</a>
+                    </div>
+                </div>
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle drop" data-bs-toggle="dropdown">Pages</a>
+                    <div class="dropdown-menu fade-up m-0 dropdownmenu">
+                        <a href="booking.html" class="dropdown-item droptext">Booking</a>
+                        <a href="testimonial.html" class="dropdown-item droptext">Testimonial</a>
                     </div>
                 </div>
                 <a href="contact.html" class="nav-item nav-link">Contact</a>
             </div>
-            <a href="https://build.eaglecarports.com/?dealer=[Your%20dealer%20number]-MAIN" class="btn btn-primary py-4 px-lg-5 d-none d-lg-block">Get A Quote<i class="fa fa-arrow-right ms-3"></i></a>
+            <a href="https://build.eaglecarports.com/?dealer=[Your%20dealer%20number]-MAIN" class="btn btn-primary
+             py-4 px-lg-5 d-none d-lg-block">Get A Quote<i class="fa fa-arrow-right ms-3"></i></a>
         </div>
     </nav>
     <!-- Navbar End -->
@@ -118,9 +127,9 @@
                         <div class="container">
                             <div class="row align-items-center justify-content-center justify-content-lg-start">
                                 <div class="col-10 col-lg-7 text-center text-lg-start">
-                                    <h6 class="text-white text-uppercase mb-3 animated slideInDown">// Metal Carports //</h6>
+                                    <h6 class="text-white text-uppercase mb-3 animated slideInDown">// Great Carports //</h6>
                                     <h1 class="display-3 text-white mb-4 pb-3 animated slideInDown">Design Your Own Carport</h1>
-                                    <a href="" class="btn btn-primary py-3 px-5 animated slideInDown">Click Here<i class="fa fa-arrow-right ms-3"></i></a>
+                                    <a href="" class="btn btn-dark py-3 px-5 animated slideInDown">Click Here<i class="fa fa-arrow-right ms-3"></i></a>
                                 </div>
                                 <div class="col-lg-5 d-none d-lg-flex animated zoomIn"> 
                                     <model-viewer href="" src="scene.gltf" alt="A 3D model of a car" camera-controls auto-rotate ar >
@@ -139,10 +148,11 @@
                                 <div class="col-10 col-lg-7 text-center text-lg-start">
                                     <h6 class="text-white text-uppercase mb-3 animated slideInDown">// Metal Carports //</h6>
                                     <h1 class="display-3 text-white mb-4 pb-3 animated slideInDown">Secure Shelter For Your Vehicle</h1>
-                                    <a href="" class="btn btn-primary py-3 px-5 animated slideInDown">Learn More<i class="fa fa-arrow-right ms-3"></i></a>
+                                    <a href="" class="btn btn-primary py-3 px-5 animated slideInDown">SHOP NOW<i class="fa fa-arrow-right ms-3"></i></a>
                                 </div>
                                 <div class="col-lg-5 d-none d-lg-flex animated zoomIn">
-                                    <img class="img-fluid" src="img/carousel-2.png" alt="">
+                                    <model-viewer href="" src="/cartoon_car/scene.gltf" alt="A 3D model of a car" camera-controls auto-rotate ar >
+                                    </model-viewer>
                                 </div>
                             </div>
                         </div>
@@ -253,7 +263,7 @@
                             </div>
                         </div>
                     </div>
-                    <a href="" class="btn btn-primary py-3 px-5">Read More<i class="fa fa-arrow-right ms-3"></i></a>
+                    <a href="about.html" class="btn btn-primary py-3 px-5">Read More<i class="fa fa-arrow-right ms-3"></i></a>
                 </div>
             </div>
         </div>
@@ -291,7 +301,7 @@
     <!-- Fact End -->
 
 
-    <!-- Service Start -->
+    <!-- Products Start -->
     <div class="container-xxl service py-5">
         <div class="container">
             <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
@@ -313,9 +323,13 @@
                             <i class="fa fa-car fa-2x me-3"></i>
                             <h4 class="m-0">Metal Barns</h4>
                         </button>
+                        <a href="products.html" class="nav-link w-100 d-flex align-items-center text-start p-4 mb-4">
+                            <i class="fa fa-car fa-2x me-3"></i>
+                            <h4 class="m-0">Show More</h4>
+                        </a>   
                     </div>
                 <div>
-                    <a href="" class="nav-link w-100 d-flex align-items-center text-start p-4 mb-4 bg-dark">MORE<i class="fa fa-arrow-right ms-3"></i></a>
+                 
                 </div>
                 </div>
                 <div class="col-lg-8">
@@ -365,9 +379,9 @@
                                 <div class="col-md-6">
                                     <h3 class="mb-3">Metal Barns</h3>
                                     <p class="mb-4">Whether you are building a metal barn on your property for livestock, or other agricultural needs, or your custom metal barn will become a workshop or storage shed, our experts in steel and metal buildings will work closely with you to make sure you get a durable metal barn that will last for years.</p>
-                                    <p><i class="fa fa-check text-success me-3"></i>Quality Servicing</p>
-                                    <p><i class="fa fa-check text-success me-3"></i>Expert Workers</p>
-                                    <p><i class="fa fa-check text-success me-3"></i>Modern Equipment</p>
+                                    <p><i class="fa fa-check text-success me-3"></i>High Quality</p>
+                                    <p><i class="fa fa-check text-success me-3"></i>Affordable</p>
+                                    <p><i class="fa fa-check text-success me-3"></i>Durable</p>
                                 </div>
                             </div>
                         </div>
@@ -376,7 +390,7 @@
             </div>
         </div>
     </div>
-    <!-- Service End -->
+    <!-- Producst End -->
 
 
     <!-- Booking Start -->
@@ -394,31 +408,31 @@
                     </div>
                 </div>
                 <div class="col-lg-6">
-                    <div class="bg-dark h-100 d-flex flex-column justify-content-center text-center p-5 wow zoomIn" data-wow-delay="0.6s">
+                    <div class=" h-100 d-flex flex-column justify-content-center text-center p-5 wow zoomIn" data-wow-delay="0.6s">
                         <h1 class="text-white mb-4">Book For A Service</h1>
                         <form>
                             <div class="row g-3">
                                 <div class="col-12 col-sm-6">
-                                    <input type="text" class="form-control border-0" placeholder="Your Name" style="height: 55px;">
+                                    <input type="text" class="text-dark form-control border-0" placeholder="Your Name" style="height: 55px;">
                                 </div>
                                 <div class="col-12 col-sm-6">
-                                    <input type="email" class="form-control border-0" placeholder="Your Email" style="height: 55px;">
+                                    <input type="email" class="text-dark form-control border-0" placeholder="Your Email" style="height: 55px;">
                                 </div>
                                 <div class="col-12 col-sm-6">
-                                    <input type="text" class="form-control border-0" placeholder="Your Number" style="height: 55px;">
+                                    <input type="text" class="text-dark form-control border-0" placeholder="Your Number" style="height: 55px;">
                                 </div>
                                 <div class="col-12 col-sm-6">
                                     <div class="date" id="date1" data-target-input="nearest">
                                         <input type="text"
-                                            class="form-control border-0 datetimepicker-input"
+                                            class="text-dark form-control border-0 datetimepicker-input"
                                             placeholder="Service Date" data-target="#date1" data-toggle="datetimepicker" style="height: 55px;">
                                     </div>
                                 </div>
                                 <div class="col-12">
-                                    <textarea class="form-control border-0" placeholder="Special Request"></textarea>
+                                    <textarea class="text-dark form-control border-0" placeholder="Special Request"></textarea>
                                 </div>
                                 <div class="col-12">
-                                    <button class="btn btn-secondary w-100 py-3" type="submit">Book Now</button>
+                                    <button class="btn btn-secondary w-100 py-3" type="submit">Submit</button>
                                 </div>
                             </div>
                         </form>
@@ -509,7 +523,7 @@
                     <a class="btn btn-link" href=""></a>
                 </div>
                 <div class="col-lg-3 col-md-6">
-                    <h4 class="text-light mb-4">Newsletter</h4>
+                    <h4 class="text-light mb-4">Sign Up</h4>
                     <p></p>
                     <div class="position-relative mx-auto" style="max-width: 400px;">
                         <input class="form-control border-0 w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
@@ -543,7 +557,7 @@
 
 
     <!-- Back to Top -->
-    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+    <a href="#" class="btn btn-lg btn-dark btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
 
 
     <!-- JavaScript Libraries -->

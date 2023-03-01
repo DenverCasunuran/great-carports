@@ -100,7 +100,7 @@
 .navbar-light .navbar-nav .nav-link {
     margin-right: 30px;
     padding: 25px 0;
-    color: #6e0101;
+    color: #000000;
     font-size: 15px;
     text-transform: uppercase;
     outline: none;
@@ -108,7 +108,7 @@
 
 .navbar-light .navbar-nav .nav-link:hover,
 .navbar-light .navbar-nav .nav-link.active {
-    color: blue;
+    color: rgb(194, 194, 194);
 }
 
 @media (max-width: 991.98px) {
@@ -215,10 +215,12 @@ model-viewer{
     width: 741px;
     position: absolute;
     transform: translateY(-400px);
-   left: -100px;
-   color-scheme: Black;
-    
+    left: -100px;
+    filter: brightness(-100);
+    box-sizing: border-box;
 }
+
+
 /*** Facts ***/
 .fact {
     background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url(../img/carousel-bg-1.jpg);
@@ -239,7 +241,16 @@ model-viewer{
 }
 
 .service .nav .nav-link.active h4 {
-    color: #a81e1e !important;
+    color: #000000 !important;
+}
+
+.col-12
+{
+    transition: all 0.3s ease;
+}
+.col-12:hover
+{
+    transform: scale(1.1);
 }
 
 
@@ -268,39 +279,12 @@ model-viewer{
 
 .bootstrap-datetimepicker-widget table td.active,
 .bootstrap-datetimepicker-widget table td.active:hover {
-    background: var(--primary);
+    background: var(--dark);
 }
 
 .bootstrap-datetimepicker-widget table td.today::before {
-    border-bottom-color: var(--primary);
+    border-bottom-color: var(--dark);
 }
-
-
-/*** Team ***/
-.team-item .team-overlay {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: var(--primary);
-    transform: scale(0);
-    transition: .5s;
-}
-
-.team-item:hover .team-overlay {
-    transform: scale(1);
-}
-
-.team-item .team-overlay .btn {
-    color: var(--primary);
-    background: #FFFFFF;
-}
-
-.team-item .team-overlay .btn:hover {
-    color: #FFFFFF;
-    background: var(--secondary)
-}
-
-
 /*** Testimonial ***/
 .testimonial-carousel .owl-item .testimonial-text,
 .testimonial-carousel .owl-item.center .testimonial-text * {
@@ -406,4 +390,53 @@ model-viewer{
     margin-right: 0;
     padding-right: 0;
     border-right: none;
+}
+
+
+/*** Products ***/
+
+.products
+{
+    padding: 1px;
+    margin: 0;
+    width: 80vw;
+    height: 100vh;
+    border-radius: 20px;
+    opacity: 1;
+    display: block;
+    
+}
+.container1
+{
+    margin: 10px;
+    font-size: 15px;
+    border-radius: 15px;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 13px;
+    height: 5vh;
+
+}
+.punyeta
+{
+    background:rgba(0, 0, 0, .7);
+    opacity: 1;
+    border-radius: 10px;
+    height: 7vh;
+    border: 5px rgba(0, 0, 0, .7);
+    border-color: #000000;
+    width: 100vw;
+}
+
+.dropdownmenu
+{
+    border-radius: 10px;
+
+}
+.droptext
+{
+    font-size: 15px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
 }
